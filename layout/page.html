@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debghatok - {{ title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ base_path }}/css/kaioken.css">
+    <link rel="stylesheet" type="text/css" href="{{ base_path }}/css/test.css">
+</head>
+
+<body id="{{ slug }}" class="grid grid-vertical">
+  <header class="grid grid-center grid-middle">
+    <h1 id="cover"><a href="{{ base_path }}/">এক দেবঘাতকের আত্মকথন</a></h1>
+  </header>
+
+
+  <section class="contents grid grid-vertical grid-middle">
+    {{ content }}
+  </section>
+
+  <footer class="grid grid-center grid-around">
+    <nav>
+      <a class="col-3" href="{{ base_path }}/">Home</a>
+      <a class="col-3" href="{{ base_path }}/contact/">Contact</a>
+      <a class="col-3" href="{{ base_path }}/about/">About</a>
+      <a class="col-3" href="{{ base_path }}/rss.xml">RSS</a>
+    </nav>
+  </footer>
+</body>
+</html>

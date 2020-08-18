@@ -1,0 +1,4 @@
+[submodule "docs"]
+	path = docs
+	url = https://github.com/sholok404/sholok404.github.io.git
+	branch = master

@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,900");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.contents {
+  flex: 1;
+}
+
+footer {
+  margin-top: 4em;
+}
+
+header {
+  background: url(../pics/cover.jpg);
+  height: 50vh;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  font-weight: 900;
+  color: white;
+}
+
+#cover {
+  background-color: black;
+  border-radius: 25px;
+}
+
+#cover a {
+  color: white;
+}
+
+#cover a:hover, #cover a:focus, #cover a:active {
+  color: lightgray;
+  text-decoration: none;
+}
+
+.article-heading {
+  margin: 0.67em 0 0;
+}
+
+.article-heading a {
+  color: black;
+}
+.article-heading a:hover, .article-heading a:focus, .article-heading a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+article {
+  max-width: 650px;
+}
+
+p.meta {
+    margin-top: 0;
+    font-size: 0.8em;
+    color: #777777;
+    font-style: italic;
+    margin-bottom: 1em;
+}
